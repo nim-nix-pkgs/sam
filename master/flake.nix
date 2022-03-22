@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-sam-master.flake = false;
+  inputs.src-sam-master.ref   = "refs/heads/master";
   inputs.src-sam-master.owner = "OpenSystemsLab";
-  inputs.src-sam-master.ref   = "master";
   inputs.src-sam-master.repo  = "sam.nim";
   inputs.src-sam-master.type  = "github";
   
