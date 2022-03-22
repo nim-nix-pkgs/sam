@@ -9,13 +9,14 @@
   
   inputs.src-sam-0_1_7.flake = false;
   inputs.src-sam-0_1_7.owner = "OpenSystemsLab";
-  inputs.src-sam-0_1_7.ref   = "refs/tags/0.1.7";
+  inputs.src-sam-0_1_7.ref   = "0_1_7";
   inputs.src-sam-0_1_7.repo  = "sam.nim";
   inputs.src-sam-0_1_7.type  = "github";
   
   inputs."jsmn".owner = "nim-nix-pkgs";
   inputs."jsmn".ref   = "master";
   inputs."jsmn".repo  = "jsmn";
+  inputs."jsmn".dir   = "0_2";
   inputs."jsmn".type  = "github";
   inputs."jsmn".inputs.nixpkgs.follows = "nixpkgs";
   inputs."jsmn".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
