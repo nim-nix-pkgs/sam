@@ -65,7 +65,7 @@
         "flakeNimbleLib": "flakeNimbleLib",
         "jsmn": "jsmn",
         "nixpkgs": "nixpkgs",
-        "src-sam-master": "src-sam-master"
+        "src-sam-devel": "src-sam-devel"
       }
     },
     "src-jsmn-0_2": {
@@ -85,19 +85,19 @@
         "type": "github"
       }
     },
-    "src-sam-master": {
+    "src-sam-devel": {
       "flake": false,
       "locked": {
-        "lastModified": 1633050143,
-        "narHash": "sha256-+/vNQFjmjtDamu9fQmyr8mHhWmpWOtilDxy0yFiMOJ0=",
+        "lastModified": 1458916621,
+        "narHash": "sha256-eXdYf5it3za2dsCznyyNKjC133KSH+kpoBlrqKDAE5U=",
         "owner": "OpenSystemsLab",
         "repo": "sam.nim",
-        "rev": "8c9e75e5ed87ce206ad2951b97f31e8f69d5115e",
+        "rev": "33e9c76b2498e01eb6930bd78a218f8b3361a302",
         "type": "github"
       },
       "original": {
         "owner": "OpenSystemsLab",
-        "ref": "refs/heads/master",
+        "ref": "refs/heads/devel",
         "repo": "sam.nim",
         "type": "github"
       }
